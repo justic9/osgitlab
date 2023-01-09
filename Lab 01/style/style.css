@@ -1,0 +1,135 @@
+body{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    background-color: white;
+    box-shadow: 2px 0px 5px 0px gray;
+    z-index: 5;
+    
+}
+header a{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+
+}
+header a:hover{
+    background-color: lightgray;
+}
+header a:visited{
+    color:black;
+}
+.nav-links{
+    display: flex;
+    margin-right: 20px;
+    gap: 20px;
+}
+header>a{
+    margin-left: 20px;
+}
+.main-contianer{
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 64px;
+
+}
+.home-page-image{
+    flex:1;
+    width: 100%;
+    height: auto;
+
+}
+.home-page-image-c{
+    position:relative;
+    
+}
+.main-contianer h1{
+    position:absolute;
+    bottom: 20px;
+    left: 60px;
+}
+/* .home-page-image:before{
+    content: "Le Catering";
+    color:black;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    z-index: 5;
+    top:100px;
+    left:50px
+    
+    
+} */
+hr{
+    box-sizing: content-box;
+    width: 1100px;
+    overflow: visible;
+}
+
+
+
+#About,#Menu{
+    display: flex;
+    max-width: 1050px;
+    
+    gap:50px  
+}
+
+#About img,#Menu img{
+    flex:1;
+    width: 50%;
+    height: auto;
+    
+     
+}
+#About p{
+    padding: 0px;
+}
+#About div{
+    display: flex;
+    flex-direction: column;
+    flex:1;   
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+#Menu h2{
+    flex: 1;
+    align-self: center;
+    justify-self: center;
+}
+.lspace{
+    letter-spacing: 3px;
+}
+.gray{
+    color: gray;
+}
+#Contact{
+    max-width: 1050px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    margin-bottom: 100px;
+
+}
+.input-text{
+    border: none;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+input{
+    padding: 8px;
+}
+
